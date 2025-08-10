@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My html page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    fieldset {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #aaa;
+    }
+    legend {
+      font-weight: bold;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to my html Page</h1>
+    <p>Its a simple page that describes me</p>
+  </header>
+
+  <section>
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Networking</li>
+      <li>Coding</li>
+      <li>Cooking</li>
+      <li>Reading books</li>
+    </ul>
+    <section>
+  <h2>My daily morning routines</h2>
+  <ol>
+    <li>Wake up </li>
+    <li>Say a word of prayer</li>
+    <li>Make the bed</li>
+    <li>Go direct to the shower</li>
+  </ol>
+</body>
+<body>
+  <h2>Systems i use mostly</h2>
+  <dl>
+    <dt>FD</dt>
+    <dd>Business communication software for customers and orgnisations on websites .</dd>
+    <dt>WHATSAPP</dt>
+    <dd>Used for clear communications with customers online.</dd>
+    <dt>3CX</dt>
+    <dd>Phone software for calls and vedio calls</dd>
+  </dl>
+</body>
+</html>
+  </section>
+  </section>
+
+  <section>
+    <h2>Weekly Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Activity</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Web Dev class</td>
+          <td>10 AM - 12 PM</td>
+        </tr>
+        <tr>
+          <td>Teusday</td>
+          <td> Python Session</td>
+          <td>6.30PM - 8.30 PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Church Fellowship</td>
+          <td>12pM - 2 PM</td>
+          <tr>
+          <td>Thursday</td>
+          <td>Database Design</td>
+          <td>10AM - 12PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Startup</td>
+            <td>6.30PM - 8.30PM</td>
+          </tr>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>The track I vibe with the most</h2>
+    <audio controls>
+      <source src="/let-it-rain.mp3.mp3" type="audio/mpeg">
+          </audio>
+
+    <h2>Featured Video</h2>
+    <video width="100%" controls>
+      <source src="/Video 2025.mp4.mp4" type="video/mp4">
+          </video>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form action="#" method="post" autocomplete="on">
+      
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Metrine Wairimu Mungai">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="wairimumetrine5@gmail.com">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0717519562">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">--Select--</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message</legend>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required minlength="5" maxlength="100">
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Hotmemes Signup</legend>
+
+        <label>
+          <input type="checkbox" name="subscribe" checked readonly>
+          Subscribe to hotmemes (mandatory)
+        </label>
+
+        <label for="contact-method">Preferred Contact Method:</label>
+        <label><input type="radio" name="contact" value="email" required> Email</label>
+        <label><input type="radio" name="contact" value="phone"> Phone</label>
+      </fieldset>
+
+      <input type="submit" value="Submit Form">
+
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Metrine Wairimu  html Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
